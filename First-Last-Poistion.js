@@ -13,7 +13,6 @@ let target = 8;
 var searchRange = function(nums, target) {
     firstIndex = -1;
     lastIndex = -1;
-    
     for(let i = 0 ; i < nums.length; i++){
         if(nums[i] === target){
             if(firstIndex === -1){
