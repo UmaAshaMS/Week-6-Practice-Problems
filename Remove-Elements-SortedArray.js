@@ -5,7 +5,8 @@ Consider the number of unique elements of nums to be k, to get accepted, you nee
 
 Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. 
 The remaining elements of nums are not important as well as the size of nums.
-Return k. */
+Return k. 
+LC- 26*/
 nums = [1,1,2]
 var removeDuplicates = function(nums) {
     uniqueArr = []

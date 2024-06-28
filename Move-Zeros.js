@@ -1,4 +1,4 @@
-//move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+//move all 0's to the end of it while maintaining the relative order of the non-zero elements. LC- 283
 nums = [0,9,12,0,34,0];
 
 //iterate from the end
