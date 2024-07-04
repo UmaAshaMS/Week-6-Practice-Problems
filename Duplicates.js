@@ -15,7 +15,7 @@ const arr = [1,2,2,3,3,3,4,4,4,4,5,6,7,6]
     });
 console.log(countMap);
 for(keys in countMap){
-    if(countMap[keys] > 1){ //checking count(values) > 1
+    if(countMap[keys] > 1){ //checking count / values > 1
         duplicates.push(keys)
     }
 }
