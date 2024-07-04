@@ -15,8 +15,6 @@ Input: words = ["cool","lock","cook"]
 Output: ["c","o"]
 */
 
-
-
 var commonChars = function(words) {
     
 };
