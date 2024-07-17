@@ -11,6 +11,6 @@ const oldPerson = profile.reduce( (oldest, person) => {
         return oldest
     }
     return person;
-},{});
+},profile[0]);
 
 console.log(oldPerson.name)
