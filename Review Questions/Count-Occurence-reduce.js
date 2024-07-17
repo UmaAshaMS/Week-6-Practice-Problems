@@ -13,3 +13,14 @@ console.log(countMap)
 
 // using reduce
 
+const out = fruits.reduce( (acc,curr) => {
+    if(acc[curr]){
+        acc[curr]++
+    }
+    else{
+    acc[curr] = 1
+    }
+return acc
+},{})
+
+console.log(out)
