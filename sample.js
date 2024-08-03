@@ -1,0 +1,1 @@
+console.log('%chey %cAravind!', 'color: red; font-size: 16px; background-color: black', 'color: yellow; font-size: 16px; background-color: black'); 
