@@ -26,7 +26,24 @@ for(let keys in countMap){
 }
 
 console.log(dup)
-
-
+//*****************************************************************************************
+const arr = [1,2,3,3,2,4,5,6,5,6,6,7,7,8,9,9,9,9]
+const out = arr.reduce( (acc,curr) => {
+    if(acc[curr]){
+        acc[curr]++
+    }
+    else{
+        acc[curr] = 1
+    }
+    return acc
+},{})
+console.log(out)
+dup = []
+for(key in out){
+    if(out[key] === 1){
+       dup.push(key) 
+    }
+}
+console.log(dup)
 
 
